@@ -1,6 +1,7 @@
 ---
 title: "K-ICS intro"
 toc: true
+toc_sticky: true
 ---
 
 # 개요

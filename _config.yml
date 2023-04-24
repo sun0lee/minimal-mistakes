@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "StepByStep"
+title                    : "언젠간 알겠지"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "sy"
@@ -132,8 +132,8 @@ author:
 # Site Footer
 footer:
   links:
-    #- label: "Twitter"
-    #  icon: "fab fa-fw fa-twitter-square"
+    - label: "Twitter"
+    #  icon: "fab fa-solid fa-dinosaur"
       # url:
     #- label: "Facebook"
     #  icon: "fab fa-fw fa-facebook-square"
@@ -284,6 +284,9 @@ collections:
   kics:
     output: true
     permalink: /:collection/:path/
+  esg:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -323,3 +326,15 @@ defaults:
       comments: true
       sidebar:
         nav: "kics"
+ # _esg
+  - scope:
+      path: ""
+      type: esg
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: true
+      sidebar:
+        nav: "esg"
