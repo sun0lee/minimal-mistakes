@@ -1,19 +1,12 @@
 # main links links
 main:
-  - title: "Home"
-    url: /
   - title: "Posts"
-    url: /year-archive/
+    url: /year-archive-grid/
   - title: "Collections"
-    url: /collection-archive/
+    url: /collection-archive-grid/
   - title: "Sitemap"
     url: /sitemap/
-  #- title: "Extra1"
-  #  url: /
-  #- title: "Extra2"
-  #  url: /
-  #- title: "Extra3"
-  #  url: /
+
 
 # sidebar navigation list sample
 kics:
@@ -35,11 +28,21 @@ esg:
     children:
       - title: "목차"
         url: /kics/intro/
-  - title: "esg2"
+
+blog:
+  - title: "blog 시작하기"
     children:
-      - title: "용어"
-        url: /kics/jekyll/
-  - title: "esg3"
+      - title: "설치 및 실행"
+        url: /blog/jekyll_setup/
+      - title: "구성요소"
+        url: /blog/components/
+  - title: "blog 작성하기"
     children:
-      - title: "기초"
-        url: /kics/markdown/
+      - title: "템플릿"
+        url: /blog/templates/
+      - title: "포스팅 올리기"
+        url: /blog/posting_collections/
+  - title: "blog etc"
+    children:
+      - title: "문법 markdown"
+        url: /blog/markdown/
