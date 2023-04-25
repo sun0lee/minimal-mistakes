@@ -14,11 +14,13 @@ author_profile: false
 
 <ul>
   {% for document in site.kics %}
-    {% if document.title != "intro" %}
+    {% if  document.title != "intro" and document.path contains "/index.md" %}
       <li>
-        <a href="{{ document.url }}">  {{ document.title }} </a>
-        {{ document.excerpt | strip_html | truncatewords: 45, '...'  }} <!-- 페이지의 excerpt(요약 발췌)  https://pengpengto.gitlab.io/blog/tech/2017/06/29/jekyll-excerpt_option.html -->
+        <a href="{{ document.url }}">{{ document.title }}</a>
+        {{ document.excerpt | strip_html | truncatewords: 45, '...' }}
       </li>
     {% endif %}
   {% endfor %}
 </ul>
+
+<!-- 페이지의 excerpt(요약 발췌)  https://pengpengto.gitlab.io/blog/tech/2017/06/29/jekyll-excerpt_option.html -->

@@ -159,6 +159,12 @@ $right-sidebar-width-narrow: 200 !default; // 200
 $right-sidebar-width: 250px !default;        // 300
 $right-sidebar-width-wide: 250px !default;   // 400
 
+/* summary add 230426 */
+summary { font-size: 0.9em;
+          font-weight: bold;
+          color: #D14D72;
+          font-style: italic; }
+
 /*
    Other
    ========================================================================== */
