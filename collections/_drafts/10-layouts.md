@@ -9,15 +9,16 @@ single_layout_gallery:
     alt: "single layout with comments and related posts"
 last_modified_at: 2020-08-30T21:27:40-04:00
 toc: true
+toc_sticky: true
 toc_label: "Included Layouts"
 toc_icon: "columns"
 ---
 
-The bread and butter of any theme. Below you'll find the layouts included with Minimal Mistakes, what they look like and the type of content they've been built for.
+레이아웃은 모든 테마에 기본이 됨. 아래에서는 기본으로 제공되는 레이아웃, 모양 및 제작된 콘텐츠를 확인함.  
 
-## Default layout
+## Default 레이아웃
 
-The base layout all other layouts inherit from. There's not much to this layout apart from pulling in several `_includes`:
+다른 모든 레이아웃이 상속하는 기본 레이아웃. `_includes`:
 
 * `<head>` elements
 * masthead navigation links
@@ -28,9 +29,10 @@ The base layout all other layouts inherit from. There's not much to this layout 
 **Note:** You won't ever assign this layout directly to a post or page. Instead all other layouts will build off of it by setting `layout: default` in their YAML Front Matter.
 {: .notice--warning}
 
-### Layout based and user-defined classes
+### 레이아웃 기반 사용자 정의 클래스
 
-Class names corresponding to each layout are automatically added to the `<body>` element eg. `<body class="layout--single">`.
+ - 각 레이아웃에 해당하는 클래스 이름이 `<body>` element에 자동으로 추가됨.  
+ - 예를 들면 `<body class="layout--single">`
 
 | layout           | class name                  |
 | ---------------- | --------------------------- |
@@ -46,7 +48,7 @@ Class names corresponding to each layout are automatically added to the `<body>`
 | tags             | `.layout--tags`             |
 | tag              | `.layout--tag`              |
 
-Using YAML Front Matter you can also assign custom classes to target with CSS or JavaScript. Perfect for "art directed" posts or adding custom styles to specific pages.
+YAML Front Matter를 사용하여 CSS나 JavaScript로 대상에 사용자 지정 클래스를 할당할 수 있음. 예를 들어 "art directed" posts처럼 특정 페이지에 사용자 지정 스타일을 추가하는데 적합함.
 
 Example:
 
@@ -67,7 +69,7 @@ Outputs:
 
 ### Canonical URL
 
-You can set custom Canonical URL for a page by specifying `canonical_url` option in pages YAML Front Matter. For example, if you have the following:
+YAML Front Matter에서  `canonical_url` 옵션을 지정하여 사용자 지정 표준 url을 설정할 수 있음.
 
 ```yaml
 layout: single
@@ -75,41 +77,42 @@ title: Title of Your Post
 canonical_url: "https://yoursite.com/custom-canonical-url"
 ```
 
-This will generate the following in the `<head>` of your page:
+이렇게 하면 페이지의 `<head>`에서 다음이 생성됨:
 
 ```html
 <link rel="canonical" href="https://yoursite.com/custom-canonical-url" />
 ```
 
-## Compress layout
+## Compress 레이아웃
 
-A Jekyll layout that compresses HTML in pure Liquid. To enable add `layout: compress` to `_layouts/default.html`.
+HTML을 Liquid로 압축하는 Jekyll layout으로 추가하기.
+`layout: compress` to `_layouts/default.html`.
 
-**Note:** Has been known to mangle markup and break JavaScript... especially if inline `// comments` are present. For this reason it has been disabled by default.
+**Note:** `// comments` 인라인이 있는 경우 마크업을 엉망으로 만들고 JavaScript를 손상시키는 것으로 알려져 있습니다. 이러한 이유로 기본적으로 비활성화되어 있습니다
 {: .notice--danger}
 
 * [Documentation](http://jch.penibelst.de/)
 
 ## Single layout
 
-The layout you'll likely use the most --- sidebar and main content combo.
+sidebar와 main content의 조합으로 이루어진 제일 많이 사용하는 레이아웃
 
 **Includes:**
 
-* Optional header image with caption
-* Optional header overlay (solid color/image) + text and optional "call to action" button
+* 캡션이 있는 헤더 이미지 (Optional)
+* header overlay (solid color/image) (Optional) + text and optional "call to action" button
 * Optional social sharing links module
 * Optional comments module
 * Optional related posts module
 * Wide page variant
 
-{% include gallery id="single_layout_gallery" caption="Image header and meta info examples for `single` layout" %}
-
-Assign with `layout: single` , or better yet apply as a [Front Matter default]({{ "/docs/configuration/#front-matter-defaults" | relative_url }}) in `_config.yml`.
+**설정방법**
+1. Front Matter : `layout: single`
+2. `_config.yml` : [Front Matter default]({{ "/docs/configuration/#front-matter-defaults" | relative_url }}) -> 추천!
 
 ### Wide page
 
-To expand the main content to the right, filling the space of what is normally occupied by the table of contents. Add the following to a post or page's YAML Front Matter:
+본 콘텐츠를 오른쪽으로 확장하여 일반적으로 목차가 차지하는 공간을 채웁니다. 게시물 또는 YAML Front Matter에 다음을 추가합니다. :
 
 ```yaml
 classes: wide
@@ -118,11 +121,10 @@ classes: wide
 **Note:** If the page contains a table of contents, it will no longer appear to the right. Instead it will be forced into the main content container directly following the page's title.
 {: .notice--info}
 
-### Table of contents
+### toc (Table of contents)
 
-Auto-generated table of contents list for your posts and pages can be enabled by adding `toc: true` to the YAML Front Matter.
+YAML Front Matter에  `toc: true` 를 추가하면 자동 생성 목차 목록이 활성화 됨.
 
-![table of contents example]({{ "/assets/images/mm-toc-helper-example.jpg" | relative_url }})
 
 | Parameter   | Required | Description | Default |
 | ---------   | -------- | ----------- | ------- |
@@ -166,20 +168,15 @@ Bad headings:
   {{ notice-text | markdownify }}
 </div>
 
-## Archive layout
+## Archive 레이아웃
 
-Essentially the same as `single` with markup adjustments and some modules removed.
+기본적으로 `single` 레이아웃과 동일하며, 마크업 조정 및 일부 모듈 제거에 차이가 있음.
 
 **Includes:**
 
-* Optional header image with caption
-* Optional header overlay (solid color/image) + text and optional "call to action" button
-* List and grid views
-
-<figure>
-  <img src="{{ '/assets/images/mm-layout-archive.png' | relative_url }}" alt="archive layout example">
-  <figcaption>List view example.</figcaption>
-</figure>
+* 캡션이 있는 선택적 헤더 이미지 (Optional)
+* 헤더 오버레이 (단색/ 이미지; Optional) + text + 버튼 (optional "call to action")
+* 목록 및 그리드 보기
 
 Below are sample archive pages you can easily drop into your project, taking care to rename `permalink`, `title`, or the filename to fit your site. Each is 100% compatible with GitHub Pages.
 
@@ -195,7 +192,8 @@ Below are sample archive pages you can easily drop into your project, taking car
 [posts-collection]: https://github.com/{{ site.repository }}/blob/master/docs/_pages/collection-archive.html
 [portfolio-collection]: https://github.com/{{ site.repository }}/blob/master/docs/_pages/portfolio-archive.md
 
-Post and page excerpts are auto-generated by Jekyll which grabs the first paragraph of text. To override this text with something more specific use the following YAML Front Matter:
+post와 page 발췌문(excerpt)은 텍스트의 첫 단락을 가져오는 Jekyll에 의해 자동 생성됨.
+excerpt을 직접 작성하려면 YAML Front Matter에서 아래처럼 직접 기술할 수 있음.
 
 ```yaml
 excerpt: "A unique line of text to describe this post that will display in an archive listing and meta description with SEO benefits."
@@ -203,17 +201,17 @@ excerpt: "A unique line of text to describe this post that will display in an ar
 
 ### Wide page
 
-To expand the main content to the right, filling the space of what is normally occupied by the table of contents. Add the following to a post or page's YAML Front Matter:
-
 ```yaml
 classes: wide
 ```
 
-### Grid view
+### Grid 보기
 
-Adding `type=grid` to the `archive-single` helper will display archive posts in a 4 column grid. For example to create an archive displaying all documents in the portfolio collection:
+Adding `type=grid` to the `archive-single` archive post가 4열 그리드로 표시됨.
 
-Create a portfolio archive page (eg. `_pages/portfolio-archive.md`) with the following YAML Front Matter:
+포트폴리오 컬렉션의 모든 문서를 표시하는 아카이브를 생성하기
+- portfolio archive page (eg. `_pages/portfolio-archive.md`)
+- YAML Front Matter:
 
 ```yaml
 ---
@@ -225,23 +223,21 @@ entries_layout: grid
 ---
 ```
 
-Teaser images are assigned similar to header images using the following YAML Front Matter:
+- 티져 이미지는 YAML Front Matter을 사용하여 헤더 이미지와 유사하게 할당됨.
 
 ```yaml
 header:
   teaser: path-to-teaser-image.jpg
 ```
 
-**Note:** More information on using this `_include` can be found under [**Helpers**]({{ "/docs/helpers/" | relative_url }}).
+**Note:**  자세한 내용은 `_include`의 링크 참조  [**Helpers**]({{ "/docs/helpers/" | relative_url }}).
 {: .notice--info}
 
-## Taxonomy archives
+## Taxonomy(분류) 아카이브
 
 If you have the luxury of using Jekyll plugins, the creation of category and tag archives is greatly simplified. Simply enable support for the [`jekyll-archives`](https://github.com/jekyll/jekyll-archives) plugin with a few `_config.yml` settings as noted in the [**Configuration**]({{ "/docs/configuration/#archive-settings" | relative_url }}) section and you're good to go.
 
-![archive taxonomy layout example]({{ "/assets/images/mm-layout-archive-taxonomy.png" | relative_url }})
-
-If you're not using the `jekyll-archives` plugin then you need to create archive pages yourself. Sample taxonomy archives can be found by grabbing the Markdown sources below and adding to your site.
+직접 `jekyll-archives` 아카이브 페이지를 생성할 수 있으며, 아래는 샘플 분류 아카이브 목록임.  
 
 | Name                 | Layout | Example |
 | -------------------- | ------ | ------ |
@@ -252,7 +248,7 @@ If you're not using the `jekyll-archives` plugin then you need to create archive
 | [Tag Archive](https://mmistakes.github.io/minimal-mistakes/tags/markup/) | `layout: tag` | [markup.md](https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_pages/markup.md) |
 | [Collection Archive](https://mmistakes.github.io/minimal-mistakes/recipes/) | `layout: collection` | [recipes-archive.md](https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_pages/recipes-archive.md) |
 
-**Note:** By default, documents are shown in a list view. To change to a grid view add `entries_layout: grid` to the page's front matter.
+**Note:** 기본적으로 문서는 목록 보기로 표시되며 yaml front matter에서 다음을 설정하면 됨. `entries_layout: grid`
 {: .notice--info}
 
 ### `layout: posts`
