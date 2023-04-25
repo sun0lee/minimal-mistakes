@@ -6,5 +6,3 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 # gem "minimal-mistakes-jekyll"
 
 gem "webrick", "~> 1.8"
-
-gem "jekyll-seo-tag", "~> 2.8"
