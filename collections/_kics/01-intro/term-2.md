@@ -1,12 +1,7 @@
 ---
-# layout: collection
 title: "Terminology"
-collection: kics
-author_profile: false
 permalink: /terminology-02/
 excerpt: "II.자산 및 부채평가에서 사용되는 용어를 정의한다."
-toc: true
-toc_sticky: true
 toc_depth: 1
 ---
 

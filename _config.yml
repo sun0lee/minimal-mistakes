@@ -272,6 +272,7 @@ collections:
   kics:
     output: true
     permalink: /collections/:collection/:path/
+
   esg:
     output: true
     permalink: /collections/:collection/:path/
@@ -310,6 +311,8 @@ defaults:
       layout: single
       read_time: false
       author_profile: false
+      toc: true
+      toc_sticky: true
       share: false
       comments: true
       sidebar:

@@ -1,11 +1,6 @@
 ---
-# layout: collection
-title: "1.총칙"
-collection: kics
-author_profile: false
+title: "총칙"
 excerpt: "기준의 목적 및 용어의 정의 그리고 일반원칙을 설명한다."
-toc: true
-toc_sticky: true
 toc_depth: 2
 ---
 # 1. 목적
@@ -108,7 +103,6 @@ toc_depth: 2
 
  건전성감독기준 재무상태표(PAP B/S)에서는 영업권 및 시장성이 없는 무형자산의 공정 가치를 0으로 평가하므로 종속회사에 대해 K-IFRS 상 재무상태표를 사용하더라도 영업권 및 시장성이 없는 무형자산은 제외한 후 합산
 {: .notice}
-  </div>
 
   </div>
 </details>

@@ -1,12 +1,7 @@
 ---
-# layout: collection
 title: "Terminology"
-collection: kics
-author_profile: false
 permalink: /terminology-01/
 excerpt: "I.총칙에서 사용되는 용어를 정의한다."
-toc: true
-toc_sticky: true
 toc_depth: 1
 ---
 
