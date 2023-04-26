@@ -4,10 +4,8 @@ main:
     url: /year-archive-grid/
   - title: "Collections"
     url: /collection-archive-grid/
-  - title: "Sitemap"
-    url: /sitemap/
-  - title: "Pages"
-    url: /categories/
+#  - title: "Sitemap"
+#    url: /sitemap/
 
 
 # sidebar navigation list
@@ -16,37 +14,19 @@ kics:
     url: /kics-index/
     children:
       - title: "총칙"
-        url: /collections/kics/01-총칙/index/
+        url: /collections/kics/intro/index/
       - title: "평가"
-        url: /collections/kics/02-자산및부채평가/index/
+        url: /collections/kics/valuation/index/
       - title: "지급여력금액"
-        url: /collections/kics/03-지급여력금액산출/index/
+        url: /collections/kics/ac/index/
       - title: "지급여력기준금액"
-        url: /collections/kics/04-지급여력기준금액산출/index/
+        url: /collections/kics/scr/index/
       - title: "문서화"
-        url: /collections/kics/05-문서화요건/index/
+        url: /collections/kics/documemtation/index/
       - title: "경과조치"
-        url: /collections/kics/06-경과조치/index/
+        url: /collections/kics/transition/index/
 esg:
   - title: "esg1"
     children:
       - title: "목차"
         url: /collections/esg/intro/
-
-blog:
-  - title: "blog 시작하기"
-    children:
-      - title: "설치 및 실행"
-        url: /collections/blog/jekyll_setup/
-      - title: "구성요소"
-        url: /collections/blog/components/
-  - title: "blog 작성하기"
-    children:
-      - title: "템플릿"
-        url: /collections/blog/templates/
-      - title: "포스팅 올리기"
-        url: /collections/blog/posting_collections/
-  - title: "blog etc"
-    children:
-      - title: "문법 markdown"
-        url: /collections/blog/markdown/

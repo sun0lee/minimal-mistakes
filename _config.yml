@@ -100,11 +100,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "sy"
+  name             : "syyyyy"
   avatar           : "/assets/images/po.jpeg"
   bio              : "._.?"
   location         : "Somewhere"
-  email            : sun0lee88@gmail.com
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -275,9 +275,6 @@ collections:
   esg:
     output: true
     permalink: /collections/:collection/:path/
-  blog:
-    output: true
-    permalink: /collections/:collection/:path/
 
 # Defaults
 defaults:
@@ -330,15 +327,3 @@ defaults:
       comments: true
       sidebar:
         nav: "esg"
- # _blog
-  - scope:
-      path: ""
-      type: blog
-    values:
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: true
-      sidebar:
-        nav: "blog"
