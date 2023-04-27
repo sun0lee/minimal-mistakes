@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Posts"
-    url: /year-archive-grid/
+#  - title: "Posts"
+#    url: /year-archive-grid/
   - title: "Collections"
     url: /collection-archive-grid/
 #  - title: "Sitemap"
