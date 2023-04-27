@@ -23,9 +23,9 @@ toc: false
 <!-- 페이지의 excerpt(요약 발췌)  https://pengpengto.gitlab.io/blog/tech/2017/06/29/jekyll-excerpt_option.html -->
 <ul>
   {% for document in site.kics %}
-    {% if document.title != "intro" and document.path contains "/index.md" %}
-      <h2><a href="{{ document.url }}">{{ document.title }}</a></h2>
-      <p>{{ document.excerpt | strip_html | truncatewords: 45, '...' }}</p>
+    {% if document.title != "intro" and document.categories contains 'kics' %}
+      <li><a href="{{ document.url }}">{{ document.title }}</a></li>
+      <!--p>{{ document.excerpt | strip_html | truncatewords: 45, '...' }}</p-->
     {% endif %}
   {% endfor %}
 </ul>

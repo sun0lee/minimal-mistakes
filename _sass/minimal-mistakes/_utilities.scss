@@ -516,7 +516,7 @@ body:hover .visually-hidden button {
    ========================================================================== */
 
 .footnote {
-  color: mix(#fff, $gray, 25%);
+  color: mix(#fff, $gray, 25%); // $$gray
   text-decoration: none;
 }
 

@@ -13,17 +13,17 @@ kics:
   - title: "K-ICS"
     url: /kics-index/
     children:
-      - title: "1. 총칙"
+      - title: "I. 총칙"
         url: /collections/kics/01-intro/index/
-      - title: "2. 평가"
+      - title: "II. 평가"
         url: /collections/kics/02-valuation/index/
-      - title: "3. 지급여력금액"
+      - title: "III. 지급여력금액"
         url: /collections/kics/03-ac/index/
-      - title: "4. 지급여력기준금액"
+      - title: "IV. 지급여력기준금액"
         url: /collections/kics/04-scr/index/
-      - title: "5. 문서화"
+      - title: "V. 문서화"
         url: /collections/kics/05-doc/index/
-      - title: "6. 경과조치"
+      - title: "VI. 경과조치"
         url: /collections/kics/06-trans/index/
 esg:
   - title: "esg1"

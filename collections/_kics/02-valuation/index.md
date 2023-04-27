@@ -2,6 +2,10 @@
 title: "자산 및 부채 평가"
 excerpt: ""
 toc: false
+categories:
+  - kics
+tags:
+  - kics
 ---
 
 <ul>

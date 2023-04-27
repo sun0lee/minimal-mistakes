@@ -2,6 +2,10 @@
 title: "지급여력기준금액 산출"
 excerpt: "."
 toc: false
+categories:
+  - kics
+tags:
+  - kics
 ---
 
 <ul>
