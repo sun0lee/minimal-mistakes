@@ -1,9 +1,11 @@
 # main links links
 main:
-#  - title: "Posts"
-#    url: /year-archive-grid/
-  - title: "Collections"
-    url: /collection-archive-grid/
+  - title: "K-ICS"
+    url: /kics-index/
+  - title: "ESG"
+    url: /collections/esg/intro/
+  - title: IFRS17
+    url: /collections/ifrs/intro/
 #  - title: "Sitemap"
 #    url: /sitemap/
 

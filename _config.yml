@@ -272,13 +272,16 @@ compress_html:
 collections_dir: collections
 collections:
   ifrs:
+    title: IFRS17
     output: true
     permalink: /collections/:collection/:path/
   kics:
+    title: K-ICS
     output: true
     permalink: /collections/:collection/:path/
 
   esg:
+    title: ESG (Economic Scenario Generator)
     output: true
     permalink: /collections/:collection/:path/
 
