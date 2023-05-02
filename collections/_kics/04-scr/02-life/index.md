@@ -1,5 +1,5 @@
 ---
-title: "생명 장기손해보험위험액"
+title: "IV.2. 생명 장기손해보험위험액"
 excerpt: "."
 toc: false
 categories:

@@ -1,5 +1,5 @@
 ---
-title: "총칙"
+title: "IV.1. 총 칙"
 excerpt: ""
 toc: false
 categories:

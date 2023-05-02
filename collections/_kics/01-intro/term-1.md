@@ -1,11 +1,10 @@
 ---
-title: "Terminology"
+title: "Term-I.총칙"
 permalink: /terminology-01/
 excerpt: "I.총칙에서 사용되는 용어를 정의한다."
 toc_depth: 1
 ---
 
-# 가. I.총칙
 ## (1) 보험회사
 **보험회사**란 「보험업법」에 의한 국내 보험회사와 해외 소재지국의 보험업 관련 법규에 의한 해외 보험회사를 말한다.
 ## (2) 보험업 관련 회사  

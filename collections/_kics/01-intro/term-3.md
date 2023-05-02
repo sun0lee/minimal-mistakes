@@ -1,11 +1,10 @@
 ---
-title: "Terminology"
+title: "Term-III.지급여력금액"
 permalink: /terminology-03/
 excerpt: "III.지급여력금액 산출에서 사용되는 용어를 정의한다."
 toc_depth: 1
 ---
 
-# 다. III.지급여력금액 산출
 ## (1) 가용자본
 **가용자본**이란 경영상 직면한 손실위험을 보전할 목적으로 보험회사가 실질적으로 보유하고 있는 자본의 규모를 말한다.
 ## (2) 자본증권

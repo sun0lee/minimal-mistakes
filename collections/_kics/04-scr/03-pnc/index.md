@@ -1,5 +1,5 @@
 ---
-title: "일반손해보험위험액"
+title: "IV.3. 일반손해보험위험액"
 excerpt: "."
 toc: false
 categories:
