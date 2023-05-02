@@ -6,6 +6,8 @@ main:
     url: /collections/esg/intro/
   - title: IFRS17
     url: /collections/ifrs/intro/
+  - title: "BLOG"
+    url: /collections/blog/intro/
   - title: "Sitemap"
     url: /sitemap/
 

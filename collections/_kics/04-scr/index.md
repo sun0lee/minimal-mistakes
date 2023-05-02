@@ -16,3 +16,23 @@ tags:
   {% endif %}
 {% endfor %}
 </ul>
+
+
+
+
+
+
+aaa
+
+
+
+
+<ul>
+{% for member in site.data.kicsMap %}
+  <li>
+    <a href="https://github.com/{{ member.hhh }}">
+      {{ member.hhh }}  ,  {{ member.related_ids }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
