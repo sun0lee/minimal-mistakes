@@ -22,17 +22,34 @@ tags:
 
 
 
-aaa
 
+
+***********
 
 
 
 <ul>
-{% for member in site.data.kicsMap %}
-  <li>
-    <a href="https://github.com/{{ member.hhh }}">
-      {{ member.hhh }}  ,  {{ member.related_ids }}
-    </a>
-  </li>
+{% for member in site.data.kicsHier %}
+ {% if member.parent_id == '12' %}
+
+  {% capture var01 %}
+       {{ member.desc }}
+  {% endcapture %}
+
+  {% capture var02 %}
+    ## {{ member.id }}. {{ member.title }}
+  {% endcapture %}
+
+
+   <h3>{{ member.id }}. {{ member.title }} </h3>
+
+   <a href="https://sun0lee.github.io/{{ member.path }}">
+         {{ member.title }}
+       </a>
+
+  <!--p>{{ var02 | markdownify}}</p-->
+
+  <p>{{ var01 }}</p>
+ {% endif %}
 {% endfor %}
-</ul>
+ </ul>

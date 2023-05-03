@@ -1,0 +1,21 @@
+id,collecnton,title,desc,parent_id,path,permalink
+1,kics,intro,기준의 목적 및 용어의 정의 그리고 일반원칙을 설명한다.,,,/kics-index/
+2,ifrs,,,,,
+3,esg,,,,,
+4,blog,,,,,
+11,kics,I. 총 칙,,1,/collections/kics/01-intro/index/,
+12,kics,II. 자산 및 부채 평가,,1,/collections/kics/02-valuation/index/,
+13,kics,III. 지급여력금액,,1,/collections/kics/03-ac/index/,
+14,kics,IV. 지급여력기준금액,,1,/collections/kics/04-scr/index/,
+15,kics,V. 문서화,,1,/collections/kics/05-doc/index/,
+16,kics,VI. 경과조치,,1,/collections/kics/06-trans/index/,
+111,kics,Term-I.총칙,I.총칙에서 사용되는 용어를 정의한다.,11,,/terminology-01/
+112,kics,Term-II.자산 및 부채평가,II.자산 및 부채평가에서 사용되는 용어를 정의한다.,11,,/terminology-02/
+113,kics,Term-III.지급여력금액,III.지급여력금액 산출에서 사용되는 용어를 정의한다.,11,,/terminology-03/
+114,kics,Term-IV.지급여력기준금액 산출,IV.지급여력기준금액 산출에서 사용되는 용어를 정의한다.,11,,/terminology-04/
+121,kics,II.1. 총 칙,,12,collections/kics/02-valuation/01-총칙/,
+122,kics,II.2. 자산 및 기타부채 평가,,12,/collections/kics/02-valuation/02-자산및기타부채/,
+123,kics,II.3. 생명보험 및 장기손해보험 부채평가,,12,/collections/kics/02-valuation/03-생명보험부채/,
+1231,kics,II.3-2.(5) 보험료부채 중 계리적 가정,공정가치 평가 생명보험부채 중 계리적 가정 part,123,/collections/kics/02-valuation/03-3-2-5-assumption/,
+124,kics,II.4. 일반손해보험 부채평가,,12,/collections/kics/02-valuation/04-일반손해보험부채/,
+125,kics,II.5. 보험부채 할인율,,12,/collections/kics/02-valuation/05-보험부채할인율/,

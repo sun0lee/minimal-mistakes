@@ -1,5 +1,5 @@
 ---
-title: "IV. 6. 운영위험액"
+title: "IV.6. 운영위험액"
 # excerpt: "."
 categories:
   - scr

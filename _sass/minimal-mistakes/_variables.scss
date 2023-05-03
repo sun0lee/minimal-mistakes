@@ -6,11 +6,11 @@
    Typography
    ========================================================================== */
 
-$doc-font-size: 16 !default; //16
+$doc-font-size: 14 !default; //16
 
 /* paragraph indention */
-$paragraph-indent: false !default; // true, false (default)
-$indent-var: 1.3em !default;
+$paragraph-indent: true !default; // true, false (default)
+$indent-var: 1.1em !default; //1.3em
 
 /* system typefaces */
 $customFont: "Noto Sans KR";
@@ -35,14 +35,16 @@ $header-font-family: $sans-serif !default;
 $caption-font-family: $serif !default;
 
 /* type scale */
-$type-size-1: 2.441em !default; // ~39.056px
-$type-size-2: 1.953em !default; // ~31.248px
-$type-size-3: 1.563em !default; // ~25.008px
-$type-size-4: 1.25em !default; // ~20px
-$type-size-5: 1.0em !default; // ~16px
-$type-size-6: 0.75em !default; // ~12px
+$type-size-1: 2.441em !default;  // ~39.056px
+$type-size-2: 1.953em !default;  // ~31.248px
+$type-size-3: 1.563em !default;  // ~25.008px
+$type-size-4: 1.25em !default;   // ~20px
+$type-size-5: 1.0em !default;    // ~16px
+$type-size-55: 0.85em !default;    // add
+$type-size-57: 0.8em !default;    // add
+$type-size-6: 0.75em !default;   // ~12px
 $type-size-7: 0.6875em !default; // ~11px
-$type-size-8: 0.625em !default; // ~10px
+$type-size-8: 0.625em !default;  // ~10px
 
 /* headline scale */
 $h-size-1: 1.563em !default; // ~25.008px
@@ -145,20 +147,20 @@ $base0f: #ff5370 !default;
    Breakpoints
    ========================================================================== */
 
-$small: 768px !default; //600px
-$medium: 850px !default; //768px
-$medium-wide: 950px !default; //900px
-$large: 1150px !default; //1024px
-$x-large: 1350px !default; //1280px
+$small: 600px !default;        //600px
+$medium: 768px !default;       //768px
+$medium-wide: 900px !default;  //900px
+$large: 1024px !default;       //1024px
+$x-large: 1340px !default;     //1280px
 $max-width: $x-large !default; //
 
 /*
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow: 180px !default; // 200
-$right-sidebar-width: 250px !default;        // 300
-$right-sidebar-width-wide: 250px !default;   // 400
+$right-sidebar-width-narrow: 200px !default; // 200px
+$right-sidebar-width: 250px !default;        // 300px
+$right-sidebar-width-wide: 250px !default;   // 400px
 
 /* summary add 230426 */
 summary { font-size: 0.9em;
