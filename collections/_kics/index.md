@@ -24,7 +24,7 @@ toc: false
     ## {{ member.id }}. {{ member.title }}
   {% endcapture %}
 
-  <li><a href="https://sun0lee.github.io/{{ member.path }}"><strong>{{ member.title }}</strong></a></li>
+  <h2><a href="{{ member.path | relative_url }}">{{ member.title }}</a></h2>
   <!--p>{{ var01 }}</p-->
 
  {% endif %}
