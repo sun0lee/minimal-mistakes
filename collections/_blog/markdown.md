@@ -183,6 +183,11 @@ ___<u>기울임 + 굵게 + 밑줄 =  조잡스럽지만 가능</u>___
 > ```문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것이 좋다고 한다.```   
 > 문장 중간에 사용할 경우에는 띄어쓰기를 사용하는 것이 좋다고 한다.
 
+
+- 위첨자 `<sup> ` tag로 입력 주석 달 때 사용: 보유리스크율<sup>1)</sup>
+- 아래첨자 `<sub>` tag로 입력 : 보유리스크율<sub>(비례-연동)</sub>
+
+
 *****
 
 # 7. 그림 (이미지)
@@ -195,8 +200,10 @@ ___<u>기울임 + 굵게 + 밑줄 =  조잡스럽지만 가능</u>___
 1. 필요한 이미지를 캡쳐해서 클립보드에 복사(`ctrl + c`)한다.
 2. 깃허브 자기 프로젝트에 issue 에 들어가서 https://github.com/sun0lee/sun0lee.github.io/issues
 3. 우측 상단의 초록색 `new issue` 버튼을 클릭
+![예제도](https://user-images.githubusercontent.com/67420397/235714881-bc93680c-252c-47b9-b318-5d5fd17fb9d1.png "초간단 사진올리기1")
 4. `ctrl + v` 붙여넣기
 5. 3초 정도 흐르면 링크가 생성된다.
+![설명은 생략가능](https://user-images.githubusercontent.com/67420397/235715325-abcb98a7-5275-4e5c-ba74-80eeda9cdaad.png)
 {% endcapture %}
 <div class="notice">
   {{ notice-text | markdownify }}
@@ -206,10 +213,6 @@ ___<u>기울임 + 굵게 + 밑줄 =  조잡스럽지만 가능</u>___
 ![Alt text](/path/to/img.jpg)
 ![Alt text](/path/to/img.jpg "사진에 대한 설명은 여기에")
 ```
-![예제도](https://user-images.githubusercontent.com/67420397/235714881-bc93680c-252c-47b9-b318-5d5fd17fb9d1.png "초간단 사진올리기1")
-
-
-![설명은 생략가능](https://user-images.githubusercontent.com/67420397/235715325-abcb98a7-5275-4e5c-ba74-80eeda9cdaad.png)
 
 *****
 

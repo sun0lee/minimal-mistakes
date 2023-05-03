@@ -1,11 +1,6 @@
 ---
 title: "III. 지급여력금액 산출"
-excerpt: "가용자본."
 toc: false
-categories:
-  - kics
-tags:
-  - kics
 ---
 
 <ul>
