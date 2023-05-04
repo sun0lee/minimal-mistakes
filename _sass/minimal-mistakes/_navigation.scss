@@ -164,20 +164,19 @@
   border-top: 1px solid $border-color;
 }
 
-/* top */
+/* top 버튼 */
 .page-navigator {
     z-index: 10;
     position: fixed;
-    right: 1em;
-    bottom: 1em;
-
+    right: 1.5rem;
+    bottom: 1.5rem;
     display: inline-flex;
     flex-direction: column;
 
-    .page-navigator-btn {
-        font-size: 2em;
+    .go_to_top_button {
+        font-size: 40px;
         color: $navicon-link-color-hover;
-        opacity: 20%;
+        opacity: 40%;
         cursor: pointer;
 
         &:hover {
