@@ -22,11 +22,11 @@ kics:
     children:
       - title: "II.1. 총 칙"
         url: /collections/kics/02-valuation/01-총칙/
-      - title: "II.2. 자산 및 기타부채 평가"
+      - title: "II.2. 자산 및 기타부채"
         url: /collections/kics/02-valuation/02-자산및기타부채/
-      - title: "II.3. 생명보험 및 장기손해보험 부채평가"
+      - title: "II.3. 생명보험 및 장기손해보험부채"
         url: /collections/kics/02-valuation/03-생명보험부채/
-      - title: "II.4. 일반손해보험 부채평가"
+      - title: "II.4. 일반손해보험 부채"
         url: /collections/kics/02-valuation/04-일반손해보험부채/
       - title: "II.5. 보험부채 할인율"
         url: /collections/kics/02-valuation/05-보험부채할인율/
