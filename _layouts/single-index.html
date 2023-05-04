@@ -17,6 +17,8 @@ thisId : '1'
 {% endfor %}
 </ul>
 
+{{ content }}
+
 <ul>
 {% for member in site.data.kicsMeta %}
  {% if member.parentId == page.thisId %}
