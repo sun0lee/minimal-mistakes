@@ -17,7 +17,7 @@ flowchart TB
 
     subgraph baseScr
         direction TB
-        A[기본 요구자본] -->A1(장기생명보험위험액)
+        A[기본 요구자본] -->A1("장기·생명보험위험액")
         A -->A2(일반손해보험위험액)
         A -->A3(시장위험액)
         A -->A4(신용위험액)
