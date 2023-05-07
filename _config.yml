@@ -277,7 +277,7 @@ collections:
     permalink: /collections/:collection/:path/
   ifrs:
     title: IFRS17
-    output: true
+    output: false
     permalink: /collections/:collection/:path/
   kics:
     title: K-ICS

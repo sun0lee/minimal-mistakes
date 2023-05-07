@@ -16,22 +16,22 @@ kics:
   - title: "K-ICS "
     url: /kics-index/
   - title: "I. 총칙"
-    url: /collections/kics/01-intro/index/
+    url: /collections/kics/01-intro/00-index/
   - title: "II. 평가"
-    url: /collections/kics/02-valuation/index/
+    url: /collections/kics/02-valuation/00-index/
     children:
       - title: "II.1. 총 칙"
         url: /collections/kics/02-valuation/01-intro/01-총칙/
       - title: "II.2. 자산 및 기타부채"
-        url: /collections/kics/02-valuation/02-asset/index/
+        url: /collections/kics/02-valuation/02-asset/00-index/
       - title: "II.3. 생명·장기손해보험부채"
-        url: /collections/kics/02-valuation/03-life/index/
+        url: /collections/kics/02-valuation/03-life/00-index/
       - title: "II.4. 일반손해보험 부채"
-        url: /collections/kics/02-valuation/04-pnc/index/
+        url: /collections/kics/02-valuation/04-pnc/00-index/
       - title: "II.5. 보험부채 할인율"
-        url: /collections/kics/02-valuation/05-dcnt/index/
+        url: /collections/kics/02-valuation/05-dcnt/00-index/
   - title: "III. 지급여력금액"
-    url: /collections/kics/03-ac/index/
+    url: /collections/kics/03-ac/00-index/
     children:
       - title: "III.1. 개 요"
         url: /collections/kics/03-ac/01-개요/
@@ -40,26 +40,26 @@ kics:
       - title: "III.3. 자본증권의 계층분류기준"
         url: /collections/kics/03-ac/03.자본증권계층분류기준/
   - title: "IV. 지급여력기준금액"
-    url: /collections/kics/04-scr/index/
+    url: /collections/kics/04-scr/00-index/
     children:
       - title: "IV.1. 총 칙"
-        url: /collections/kics/04-scr/01-intro/index/
+        url: /collections/kics/04-scr/01-intro/00-index/
       - title: "IV.2. 생명·장기손해보험위험액"
-        url: /collections/kics/04-scr/02-life/index/
+        url: /collections/kics/04-scr/02-life/00-index/
       - title: "IV.3. 일반손해보험위험액"
-        url: /collections/kics/04-scr/03-pnc/index/
+        url: /collections/kics/04-scr/03-pnc/00-index/
       - title: "IV.4. 시장위험액"
-        url: /collections/kics/04-scr/04-mkt/index/
+        url: /collections/kics/04-scr/04-mkt/00-index/
       - title: "IV.5. 신용위험액"
-        url: /collections/kics/04-scr/05-crd/index/
+        url: /collections/kics/04-scr/05-crd/00-index/
       - title: "IV.6. 운영위험액"
-        url: /collections/kics/04-scr/06-oper/index/
+        url: /collections/kics/04-scr/06-oper/00-index/
       - title: "IV.7. 요구자본에 대한 법인세효과"
-        url: /collections/kics/04-scr/07-tax/index/
+        url: /collections/kics/04-scr/07-tax/00-index/
   - title: "V. 문서화"
-    url: /collections/kics/05-doc/index/
+    url: /collections/kics/05-doc/00-index/
   - title: "VI. 경과조치"
-    url: /collections/kics/06-trans/index/
+    url: /collections/kics/06-trans/00-index/
 esg:
   - title: "esg1"
     children:

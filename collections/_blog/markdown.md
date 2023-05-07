@@ -308,6 +308,36 @@ import class Enum ;
     {{ notice-text | markdownify }}
   </div>
 
+
+## 10-3. extendable
+
+``` html
+<details>
+  <summary>여기에 제목</summary>
+  <div markdown="1">
+  {% raw %}{% capture notice-1 %}
+내용
+  {% endcapture %}
+  <div class="notice">
+    {{ notice-1 | markdownify }}{% endraw %}
+  </div>
+  </div>
+</details>
+```
+
+<details>
+  <summary>여기에 제목</summary>
+  <div markdown="1">
+  {% capture notice-1 %}
+내용
+  {% endcapture %}
+
+  <div class="notice">
+    {{ notice-1 | markdownify }}
+  </div>
+  </div>
+</details>
+
 *****
 
 # 11. 수식입력하기
@@ -319,6 +349,37 @@ import class Enum ;
 
 ## 11-2. 수식 block
 - '$$'로 감싼다.
+
+
+# 12. mermaid
+
+- [doc](https://mermaid.js.org/syntax/flowchart.html#a-node-with-round-edges)
+- [Editor](https://mermaid-js.github.io/mermaid-live-editor)
+
+<div class="mermaid">
+  flowchart LR
+    subgraph 원화표시 변액보험 펀드
+      direction TB
+      A[원화표시 변액보험 펀드] --> B[원화 채권투자]
+      A --> C[해외통화 채권투자]
+      B --> B1([원화 HW1F])
+      C -->|원칙| B1
+      C -.->|적합성입증| F([해외통화 HW1F])
+      F -.->|"스왑션데이터 부재, 환율시나리오 불가 등"|C3([다른금리모형사용])
+      F -->|환율시나리오 가능|F
+    end
+</div>
+
+<div class="mermaid">
+  flowchart LR
+    subgraph 해외통화표시 변액보험 펀드
+      direction TB
+      A1[해외통화표시 변액보험 펀드] --> D[해외통화 채권투자]
+      D --> |원칙|E([원화 HW1F])
+      D -.-> |적합성입증|F1([해외통화 HW1F])
+      F1 -.-> |스왑션 데이터 부재 등|G([다른금리모형 사용])
+     end
+</div>
 
 > 참고자료   
 - [출처](https://gist.github.com/ihoneymon/652be052a0727ad59601)
