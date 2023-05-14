@@ -65,3 +65,14 @@ esg:
     children:
       - title: "목차"
         url: /collections/esg/intro/
+  - title: "AFNS"
+    url: /collections/esg/AFNS/
+    children:
+      - title: "00"
+        url: /collections/esg/AFNS00/
+      - title: "01"
+        url: /collections/esg/AFNS01/
+      - title: "02"
+        url: /collections/esg/AFNS02/
+      - title: "03"
+        url: /collections/esg/AFNS03/
